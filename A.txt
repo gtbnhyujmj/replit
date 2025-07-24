@@ -1,0 +1,66 @@
+Replit 是一個「線上程式開發平台（cloud IDE）」，它最大的特色就是打開瀏覽器就能寫程式、執行、預覽成果，甚至合作開發和部署網站。不用安裝任何東西，也不需要自己架伺服器。
+
+🔍 回答你的問題逐條來說：
+✅ Replit 是什麼？
+Replit = Repeat + It（但現在已經變成品牌名稱）
+它是一個「支援多語言的線上 IDE + 執行環境」，可用來：
+
+編寫和執行各種語言（Python、JavaScript、C++、Java 等）
+
+製作 Flask 網頁（你說的沒錯）
+
+做 WebSocket、API、Discord bot、遊戲等專案
+
+支援多人協作（像 Google Docs 那樣）
+
+免費提供一點點伺服器資源（可以部署簡單網頁）
+
+🕹️ 為什麼它會問你要用 Pygame 還是別的？
+這是在你建立一個新的 Python 專案時，Replit 提供不同模板（template） 的選項。
+例如：
+
+「Python」= 一般命令列程式（純 Python）
+
+「Pygame」= 預設載入 pygame 套件，適合寫小遊戲
+
+「Flask」= 建好 Flask 架構，方便你直接開始寫網站
+
+「FastAPI」「Tkinter」「Turtle」等等也是預設模板
+
+這些只是幫你「事先加好套件和架構」，你可以自由修改。
+
+🐍 那 Python 下面那一行寫「Replit」是什麼意思？
+你看到的是像這樣的字：
+
+scss
+複製
+編輯
+Python 3.10.4 (Replit)
+這表示：
+
+Python 的版本是 3.10.4
+
+執行環境是在 Replit 提供的容器（container）上運行
+
+「(Replit)」並不是特別的 Python 版本，而是Replit 自己建構的執行環境標示
+
+有一點像你在 Windows 上看到：
+
+scss
+複製
+編輯
+Python 3.10.4 (Windows)
+在 Replit 裡，Replit 自己包裝了一個 Linux 環境、加上他們自己的套件管理（Replit 使用 poetry + .replit 設定檔來控制套件安裝）
+
+🔧 延伸補充：
+Replit 免費帳號有執行資源限制（比如 RAM、CPU、磁碟空間）
+
+免費帳號的伺服器會在你離開幾分鐘後「睡著」（所以不能當真正 24 小時運行的伺服器）
+
+可以買 Hacker Plan（付費）來延長 uptime、加快速度
+
+🧠 總結一句話：
+Replit 是一個可以「線上開發 + 即時執行 + 簡易部署」的雲端程式平台，Python 在 Replit 上的版本是標準 Python，只是它跑在 Replit 的伺服器上，並加上一些特定設定。
+
+如果你要做 Flask 網頁專案，只要選擇「Flask 模板」就可以省去一堆設定，開箱即用。
+如果你有範例程式，我可以幫你部署在 Replit 上。
